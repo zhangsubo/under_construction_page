@@ -1,4 +1,4 @@
-var typed = new Typed('.quote', {
+var typed = new Typed('#quote', {
     strings: ['The last one is the best one.','Je pense donc je suis.'],
     typeSpeed: 100,
     backSpeed: 0,

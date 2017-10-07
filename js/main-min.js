@@ -1,1 +1,1 @@
-var typed=new Typed(".quote",{strings:["The last one is the best one.","Je pense donc je suis."],typeSpeed:100,backSpeed:0,fadeOut:!0,loop:!0}),myDate=new Date,yearData=myDate.getFullYear();$("#year").html(yearData);
+var typed=new Typed("#quote",{strings:["The last one is the best one.","Je pense donc je suis."],typeSpeed:100,backSpeed:0,fadeOut:!0,loop:!0}),myDate=new Date,yearData=myDate.getFullYear();$("#year").html(yearData);
