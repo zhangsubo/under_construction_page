@@ -18,6 +18,7 @@ body {
     display: block;
     font-weight: 100;
     font-family: 'Lato';
+    font-size: 10px;
 }
 a{
   text-decoration:none;
@@ -36,7 +37,7 @@ a{
     display: inline-block;
 }
 .title {
-    font-size: 96px;
+    font-size: 6rem;
     font-family: 'Oregano-Regular';
 }
 #quote {
