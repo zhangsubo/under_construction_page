@@ -10,15 +10,10 @@ var myDate = new Date(),
     yearData = myDate.getFullYear(); 
 $("#year").html(yearData);
 
-
 // 通过配置决定前端显示内容
-
-var site_name = '';
-var icp = '';
 
 if (site_name.length !=0) {
     $('.site_name').html(site_name);
-    $('.site_name').attr("href","//"+site_name);
     document.title = site_name+'建设中';
 }
 if (icp.length != 0) {
