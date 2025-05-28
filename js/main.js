@@ -1,4 +1,7 @@
 // created by 20250523
+var site_name = '';
+var icp = '';
+var email = '';
 // 获取当前访问的域名
 var currentDomain = window.location.hostname;
 
@@ -11,6 +14,7 @@ fetch('/config.json')
         if (domainConfig) {
             site_name = domainConfig.domain;
             icp = domainConfig.icp;
+            email = domainConfig.email;
             updateSiteInfo();
         }
     })
@@ -41,6 +45,9 @@ function updateSiteInfo() {
         $('#icp').attr("target","_blank");
         $('#icp').attr("content","nofollow");
         $('#icp').html(icp);
+    }
+    if (email.length != 0) {
+        $('#email').html("违法和不良信息举报邮箱：" + email);
     }
 }
 

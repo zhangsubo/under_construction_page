@@ -2,7 +2,8 @@
     "domains": [
         {
             "domain": "example.com",
-            "icp": "京ICP备XXXXXXXX号"
+            "icp": "京ICP备XXXXXXXX号",
+            "email": "example@example.com"
         }
     ]
 }
